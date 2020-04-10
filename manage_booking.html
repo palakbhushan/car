@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<title>manage booking</title>
+<style>
+.reed
+{
+Background:white;
+Color:red;
+}
+Body
+{
+Margin:0;
+Padding:0;
+Font-family:sans-serif;
+Background:url("4.jpg");
+Background-repeat:no-repeat;
+Background-Size:cover;
+}
+.navbar {
+  overflow: hidden;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.box
+{
+Width:700px;
+Padding:30px;
+Position:absolute;
+Top:50%;
+Left:50%;
+Transform:translate(-50%,-50%);
+background-color:white;
+text-align:center;
+}
+.box h1
+{
+Color:red;
+text-transform:capitalize;
+}
+.box input[type="text"],.box input[type="password"]
+{
+border:0;
+Background:none;
+Display:block;
+Margin:20px auto;
+Text-algin:center;
+Border:2px solid red;
+Padding:14px 10px;
+Width:200px;
+Outline:none;
+Color:red;
+Border-radius:24px;
+
+.AZ{ width: 100%;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  
+	<a href="index.html">LOGOUT</a>
+	<a href="manage_booking.html">MANAGE BOOKING</a>
+	<a href="login page.html">LOG-IN</a>
+	<a href="sign up.html">SIGN-UP</a>
+	<a href="index.html">HOME</a>
+   
+</div>
+
+<form action="index.html"class="box" action="index.html" method="post">
+<h1>Manage booking</h1>
+<input type="text" name="" placeholder="username" required><br>
+<input type="password" name="" placeholder="password" reqired><br>
+<input type="text" name="" placeholder="pick up date:dd/mm/yy" requried><input type="text" name="" placeholder="pick off date:dd/mm/yy" required><br>
+
+<mark class="reed">Purpose fo rental</mark>
+
+<input type="radio" name"button" />Business
+<input type="radio" name"button" />Leisure<br>
+
+<mark class="reed">location</mark> 
+<input type="radio" name"button" />Jalandhar
+<input type="radio" name"button" />Phagwara
+<input type="radio" name"button" />Amritsar
+<input type="radio" name"button" />Ludhiana<br><br>
+
+<mark class="reed">Car Brand</mark>
+
+<input type="radio" name"pick" />RENAULT
+<input type="radio" name"pick" />MAHINDRA
+<input type="radio" name"pick" />TATA
+<input type="radio" name"pick" />MARUTI SUZKI<br><br>
+
+<mark class="reed">Car color</mark>
+
+<input type="radio" name"put" />RED
+<input type="radio" name"put" />BLUE
+<input type="radio" name"put" />BLACK
+<input type="radio" name"put" />YELLOW<br><br>
+
+<mark class="reed">License Type</mark>
+
+<select><option>PUC</option>
+<option>Insurance policy</option>
+<option>Driving licence</option>
+<option>Registration certificate</option>
+<br>
+<script>
+function myFunction(){
+alert("BOOKING SUCCESSFULLY SAVED");
+}
+
+</script>
+<input onclick="myFunction()" type="submit" class="AZ" ></input>
+
+</fo
+</body>
